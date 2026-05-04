@@ -10,7 +10,11 @@
     color: #333;
 } */
 
-/* Common or Shared Styles Start */
+
+
+
+
+/*! Common or Shared Styles Start */
 
 /* Google Fonts Styles Start */
 .merriweather-normal {
@@ -39,9 +43,14 @@
   margin-bottom: 120px;
 }
 
-/* Common or Shared Styles End */
+/*! Common or Shared Styles End */
 
-/* main section styles start */
+
+
+
+
+
+/** main section styles start */
 .main-section {
   padding: 50px 0 120px 0;
   max-width: 1320px;
@@ -54,26 +63,26 @@
   padding: 20px;
 }
 
-.banner-content {
+.banner-section-content {
   position: relative;
   text-align: center;
   color: #ffffff;
 }
 
-.banner-content-image {
+.banner-section-content-image {
   position: relative;
   border-radius: 16px;
   overflow: hidden;
 }
 
-.banner-content-image img {
+.banner-section-content-image img {
   border-radius: 16px;
   width: 100%;
   height: auto;
   display: block;
 }
 
-.banner-content-image::after {
+.banner-section-content-image::after {
   content: "";
   position: absolute;
   top: 0;
@@ -83,20 +92,21 @@
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
 }
 
-.banner-content-centered {
+.banner-section-content-text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.banner-content-centered h5 {
+.banner-section-content-text h5 {
   font-size: 32px;
   margin-bottom: 16px;
 }
 
-.banner-content-centered h2 {
+.banner-section-content-text h2 {
   font-size: 72px;
+  font-weight: 900;
 }
 /* banner section styles  end */
 
@@ -126,4 +136,58 @@
   }
 /* categories section styles  end */
 
-/* main section styles end */
+/* party section styles  start */
+.party-section-content{
+  position: relative;
+  color: #ffffff;
+}
+
+.party-section-content-image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+}
+
+.party-section-content-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.party-section-content-text{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+
+.party-section-content-text-right{
+  width: 700px;
+}
+
+.party-section-content-text-right h3{
+  font-size: 64px;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+.party-section-content-text-right p{
+  font-size: 16px;
+  margin-bottom: 48px;
+}
+
+.party-section-button {
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 32px;
+}
+/* party section styles  end */
+
+/** main section styles end */
