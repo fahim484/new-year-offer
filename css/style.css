@@ -32,7 +32,7 @@
 /* Google Fonts Styles End */
 
 :root {
-  --primary-color: #ff5733;
+  --primary-color: #FF0000;
   --secondary-color: #070211;
   --accent-color: #070211;
   --background-color: #f4f4f4;
@@ -189,5 +189,34 @@
   margin-left: 32px;
 }
 /* party section styles  end */
+
+/* place section styles  start */
+.place-section-content{
+  background: linear-gradient(180deg, rgba(255, 0, 0, 10%) 0%, rgba(255, 0, 0, 0%) 100%);
+  text-align: center;
+  padding: 100px 0;
+  border-radius: 16px;
+}
+.place-section-content h4 {
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--secondary-color);
+  line-height:56px;
+  margin-bottom: 48px;
+}
+.place-section-content span{
+  color: var(--primary-color);
+}
+.place-section-content-button{
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: var(--primary-color);
+  padding: 16px 32px;
+  border-radius: 8px;
+  border: none;
+}
+/* place section styles  end */
 
 /** main section styles end */
