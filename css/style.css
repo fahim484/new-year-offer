@@ -371,4 +371,60 @@
 } */
 /* gift section styles end */
 
+/* newsletter section styles start */
+.newsletter-section-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(255, 0, 0, 5%);
+  padding: 80px 0;
+  border-radius: 16px;
+}
+.newsletter-section-content img{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 40px;
+}
+
+.newsletter-section-content h3{
+  font-size: 48px;
+  font-weight: 900;
+  color: var(--secondary-color);
+  line-height: auto;
+  margin-bottom: 22px;
+}
+.newsletter-section-content p{
+  font-size: 20px;
+  color: var(--accent-color);
+  line-height: 32px;
+  margin-bottom: 48px;
+}
+.newsletter-section-content form{
+  display: flex;
+}
+.newsletter-section-content form input[type="email"]{
+  padding: 25px 477px 25px 30px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  line-height: auto;
+  border-radius: 50px 0 0 50px;
+}
+.newsletter-section-content form input[type="email"]:focus{
+  outline: none;
+}
+.newsletter-section-content form input[type="submit"]{
+  padding: 24px 56px;
+  border-radius: 0 50px 50px 0;
+  border: none;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: auto;
+  cursor: pointer;
+}
+/* newsletter section styles end */
+
 /** main section styles end */
